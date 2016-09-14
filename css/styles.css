@@ -6,47 +6,69 @@
 }
 /*END RESET CSS*/
 
-sub{
+.exercise:before{
+    content: '';
+    display: block;
+    border-top: 1px solid black;
+}
+
+.exercise.one .low{
+    vertical-align: sub;
+}
+
+
+
+
+.six.table6{
+    border-spacing: 1px;
+    cellpadding: 4;
+    cellspacing: 1;
+}
+
+.seven sub{
     color: blue;
 }
 
-sup{
+.seven sup{
     color: red;
 }
 
-.flag{
+.eight .flag{
     width: 300px;
     height: 200px;
     border: 1px solid black;
     position: relative;
 }
 
-.flag-circle{
+.eight .flag-circle{
     position: absolute;
-    top: 39px;
-    left: 89px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
     width: 120px;
     height: 120px;
     background-color: #ff2328;
-    border-radius: 60px;
+    border-radius: 50%;
 }
 
-.square.blue{
+.eight .flag-circle:hover {
+    background-color: blue;
+}
+.ten .square{
     display: inline-block;
     margin-right: 10px;
     width: 50px;
     height: 50px;
+}
+
+.ten .square.blue{
     background: blue;
 }
 
-.square.black{
-    display: inline-block;
-    margin-right: 10px;
-    width: 50px;
-    height: 50px;
+.ten .square.black{
     background: black;
 }
 
-.square:hover{
+.ten .square:hover{
     background: orange;
 }
