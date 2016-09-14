@@ -33,10 +33,22 @@
     color: green;
 }
 
-.six .table6{
-    border-spacing: 1px;
-    cellpadding: 4;
-    cellspacing: 1;
+.six .table{
+    border: 1px solid black;
+    width: 350px;
+    height: 130px;
+    border-spacing: 2px;
+
+}
+.six th{
+    text-align: center;
+    border: 1px solid black;
+}
+.six td{
+    border: 1px solid black;
+}
+.six .t-center{
+    text-align: center;
 }
 
 .seven sub{
