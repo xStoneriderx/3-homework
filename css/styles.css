@@ -20,6 +20,18 @@
     margin-left: 40px;
 }
 
+.four *{
+    margin-top: 10px;
+}
+.four h1{
+    color: brown;
+}
+.four h3{
+    color: #a54b23;
+}
+.four a{
+    color: green;
+}
 
 .six .table6{
     border-spacing: 1px;
@@ -30,7 +42,6 @@
 .seven sub{
     color: blue;
 }
-
 .seven sup{
     color: red;
 }
@@ -41,7 +52,6 @@
     border: 1px solid black;
     position: relative;
 }
-
 .eight .flag-circle{
     position: absolute;
     top: 50%;
@@ -52,25 +62,22 @@
     background-color: #ff2328;
     border-radius: 50%;
 }
-
 .eight .flag-circle:hover {
     background-color: blue;
 }
+
 .ten .square{
     display: inline-block;
     margin-right: 10px;
     width: 50px;
     height: 50px;
 }
-
 .ten .square.blue{
     background: blue;
 }
-
 .ten .square.black{
     background: black;
 }
-
 .ten .square:hover{
     background: orange;
 }
